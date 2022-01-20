@@ -2,9 +2,9 @@ import React from 'react';
 
 import {View, StyleSheet, Text} from 'react-native';
 
-interface BodyInfoListProps {}
+interface BodyInfoUpdateScreenProps {}
 
-export const BodyInfoList: React.FC<BodyInfoListProps> = () => {
+export const BodyInfoUpdateScreen: React.FC<BodyInfoUpdateScreenProps> = () => {
   return (
     <View style={styles.container}>
       <Text>{'BodyInfoList'}</Text>
