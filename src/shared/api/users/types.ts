@@ -3,7 +3,10 @@ export type AuthPayload = {
   username:string
   password:string
 };
-export type GetUsersPayload = {
+export type GetUserPayload = {
+  userId:number
+};
+export type GetUserResponse = {
   userId:number
 };
 
